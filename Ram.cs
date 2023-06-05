@@ -4,17 +4,17 @@ using System.Linq;
 
 namespace Garage
 {
-    public class Tesla : Vehicle
+    public class Ram : Vehicle
     {
-        public double BatteryKWh { get; set; }
+        public double FuelCapacity { get; set; }
         public string MainColor { get; set; }
         public int MaximumOccupancy { get; set; }
 
         public override void Drive()
         {
-            Console.WriteLine("The Tesla whirs past you. Whirrrrrr!");
+            Console.WriteLine("The blue Ram drives past. RRrrrrrummbbble!");
         }
-        public void ChargeBattery()
+        public void RefuelTank()
         {
             // method definition omitted
         }
